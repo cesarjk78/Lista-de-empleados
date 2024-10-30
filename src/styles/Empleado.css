@@ -1,0 +1,33 @@
+.empleado {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.empleado-imagen {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.empleado-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: white;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+.badge-business { background-color: #007bff; }
+.badge-marketing { background-color: #28a745; }
+.badge-it { background-color: #17a2b8; }
+.badge-engineering { background-color: #ffc107; }
